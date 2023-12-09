@@ -11,6 +11,6 @@ class Home extends BaseController
         $data = [
             "valor" => $uri->getSegment(2),
         ];
-        return view('welcome_message', $data);
+        return view('inicio', $data);
     }
 }
